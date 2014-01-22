@@ -212,12 +212,11 @@ table {
 
 th {
 	font-weight: 300;
-	width: 2rem;
-}
-
-th:nth-child(even) {
+	width: 4rem;
 	background-color: #E4E4E4;
 }
+
+
 
 tr th {
 	color: #4B4B4B;
@@ -228,7 +227,7 @@ td {
 	text-align: center;
 }
 
-tr {
+tr:nth-child(even) {
 	background-color: #BED5BF;
 }
 
