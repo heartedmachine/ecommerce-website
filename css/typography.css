@@ -228,7 +228,7 @@ td {
 	text-align: center;
 }
 
-tr:nth-child(even) {
+tr {
 	background-color: #BED5BF;
 }
 
