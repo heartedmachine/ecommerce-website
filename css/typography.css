@@ -1,6 +1,6 @@
 /*
   Colour Palette
-  - Light Blue: #15C0C3; rgba(21, 192, 195, 1); 
+  - Light Blue: #15C0C3; rgba(21, 192, 195, 1);
   - Light Pink: #E9527C; rgba(233, 82, 124, 1)
  */
 
@@ -8,7 +8,7 @@
 /* CSS Document */
 
 html {
-	font: normal 100%/1.5 Georgia, serif; /*16px/24px */	
+	font: normal 100%/1.5 Georgia, serif; /*16px/24px */
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -69,21 +69,21 @@ small, .milli {
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Lato', arial, sans-serif;
-	color: #15C0C3;
+	color: #272D70;
 	font-weight: 300;
 	border-bottom: 1px solid #C2C2C2;
 }
 
 ::selection {
 	background-color: #B4B4B4;
-	color: #fff;
+	color: #325686;
 }
 
 a,
 a:link {
-	color: #E9527C;
+	color: #F58240;
 	text-decoration: none;
-	border-bottom: 1rem solid transparent;	
+	border-bottom: 1rem solid transparent;
 	transition: all 200ms linear;
 }
 
@@ -97,7 +97,7 @@ a:focus,
 a:active {
 	color: #999;
 }
-	
+
 ul {
 	list-style-type: none;
 }
@@ -108,7 +108,7 @@ ul li{
 
 ul li:before {
 	content: "☁";
-	color: #67B6BE;
+	color: #37435D;
 	position: absolute;
 	left: -1.4rem;
 }
@@ -120,7 +120,7 @@ ol li {
 }
 
 ol li:nth-child(even) {
-	background-color: #E4E4E4;	
+	background-color: #E4E4E4;
 }
 
 strong {
@@ -137,7 +137,7 @@ cite {
 
 footer {
 	margin-left: 1rem;
-	
+
 }
 
 dl {
@@ -148,7 +148,7 @@ dl {
 em {
 	font-weight: 700;
 	color: #F69ABE;
-} 
+}
 
 i {
 	font-weight: 300;
