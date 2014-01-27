@@ -1,0 +1,16 @@
+.img-flex {
+	display: block;
+	float: left;
+	margin-right: 1rem;
+}
+
+.product {
+	background-color: #E5E5E5;
+	border-radius: 8px;
+	padding: 1rem;
+	overflow: hidden;
+}
+
+h4{
+	display: block;
+}
