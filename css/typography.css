@@ -30,6 +30,7 @@ table, hr{
 h1, .exa {
   font-size: 1.8020rem;
   line-height: 1.6648;
+  color: ;
 }
 
 h2, .peta {
@@ -69,9 +70,16 @@ small, .milli {
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Lato', arial, sans-serif;
-	color: #272D70;
 	font-weight: 300;
 	border-bottom: 1px solid #C2C2C2;
+}
+
+h2, h4, h5 {
+	color: #81A489;
+}
+
+h1, h3, h5 {
+	color: #134B57;
 }
 
 ::selection {
@@ -81,14 +89,14 @@ h1, h2, h3, h4, h5, h6 {
 
 a,
 a:link {
-	color: #F58240;
+	color: #C04D31;
 	text-decoration: none;
 	border-bottom: 1rem solid transparent;
 	transition: all 200ms linear;
 }
 
 a.visited {
-	color:#4C51D1;
+	color:#F2A054;
 	border-bottom: transparent;
 }
 
