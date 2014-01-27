@@ -2,6 +2,7 @@
 	display: block;
 	float: left;
 	margin-right: 1rem;
+	margin-bottom: 1rem;
 }
 
 .product {
@@ -9,6 +10,7 @@
 	border-radius: 8px;
 	padding: 1rem;
 	overflow: hidden;
+	margin-bottom: 1.5rem;
 }
 
 h4{
