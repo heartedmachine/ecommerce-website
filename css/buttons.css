@@ -18,14 +18,7 @@
    background: #272d70;
    }
 
-.btn-alt {
-	color: #fff;
-	background-color: #616161;
-	border: #000;
-	font-weight: normal;
-}
-
-.btn-alt:hover {
-	font-weight: normal;
-	color: #272D7D;
+.btn-alt{
+   background-color: #BCBCBC;
+   color: #81A489;
 }
