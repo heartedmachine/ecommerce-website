@@ -1,9 +1,3 @@
-/*
-  Colour Palette
-  - Light Blue: #15C0C3; rgba(21, 192, 195, 1);
-  - Light Pink: #E9527C; rgba(233, 82, 124, 1)
- */
-
 @charset "UTF-8";
 /* CSS Document */
 
@@ -89,7 +83,7 @@ h1, h3, h5 {
 
 a,
 a:link {
-	color: #C04D31;
+	color: #F2A054;
 	text-decoration: none;
 	border-bottom: 1rem solid transparent;
 	transition: all 200ms linear;
@@ -115,7 +109,7 @@ ul li{
 }
 
 ul li:before {
-	content: "☁";
+	content: "⟶";
 	color: #37435D;
 	position: absolute;
 	left: -1.4rem;
