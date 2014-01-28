@@ -5,6 +5,7 @@
    text-decoration: none;
    padding: 12px 30px;
    border-radius: 10px;
+   margin-bottom: 0;
    font-family: Helvetica, arial, sans-serif;
    }
 .button:hover {
