@@ -4,7 +4,10 @@
    color: #F29A6E;
    text-decoration: none;
    padding: 12px 30px;
+   display: inline-block;
+   with: 150px;
    border-radius: 10px;
+   margin: 0 1rem 1rem 0;
    font-family: Helvetica, arial, sans-serif;
    }
 .button:hover {
