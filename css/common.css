@@ -28,3 +28,14 @@ html {
 	display: block;
 	width: 100%;
 }
+
+.float-left {
+	float: left;
+	margin-right: 1rem;
+	margin-bottom: 1rem;
+}
+
+.center-img {
+	margin: 0 auto;
+	display: table;
+}
