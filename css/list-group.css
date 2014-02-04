@@ -1,3 +1,10 @@
 ul {
 	font-family: 'Lato', arial, sans-serif;
 }
+.no-border{
+	border: none;
+}
+
+.text-center {
+	text-align: center;
+}
