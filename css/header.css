@@ -1,5 +1,47 @@
 header {
 	background-color: #eee;
-	margin: 0;
+	margin: -8px;
+	padding: 0px;
+	overflow: hidden;
+	position: relative;
+}
+
+.logo {
+	padding: 15px;
+	margin-bottom: 0;
+}
+
+.search {
+	margin-bottom: 1rem;
+	display: block;
+	margin: .5rem auto;
+}
+
+#nav {
+	display: table;
+	width: 100%;
+	float: left;
+	margin: 0 0 1em 0;
+	padding: 0;
+	overflow: hidden;
+	font-family: 'Lato', arial, sans-serif;
+}
+
+#nav ul {
+	list-style: none;
+	display: table;
+	margin: 0 auto;
 	padding: 0;
 }
+
+#nav li {
+	float: left;
+}
+
+#nav li a {
+	display: block;
+	padding: 8px 15px;
+	text-decoration: none;
+}
+
+
