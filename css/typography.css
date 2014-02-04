@@ -109,7 +109,7 @@ ul li{
 }
 
 ul li:before {
-	content: "⟶";
+	content: "";
 	color: #37435D;
 	position: absolute;
 	left: -1.4rem;
