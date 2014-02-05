@@ -209,28 +209,24 @@ data {
 }
 
 table {
-	background-color: #F2F2F2;
 }
 
 th {
 	font-weight: 300;
-	width: 4rem;
+	width: 100%;
 	background-color: #E4E4E4;
 }
 
-
-
 tr th {
-	color: #4B4B4B;
+
 }
 
 td {
-	width: 3rem;
-	text-align: center;
+
 }
 
 tr:nth-child(even) {
-	background-color: #BED5BF;
+
 }
 
 caption {
