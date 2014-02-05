@@ -3,7 +3,6 @@ header {
 	margin: -8px;
 	padding: 0px;
 	overflow: hidden;
-	position: relative;
 }
 
 .logo {
@@ -12,16 +11,17 @@ header {
 }
 
 .search {
-	margin-bottom: 1rem;
-	display: block;
-	margin: .5rem auto;
+	display: inline-table;
+	margin: 0rem 1rem;
+	background-color: red;
+	float: right;
 }
 
 #nav {
 	display: table;
 	width: 100%;
 	float: left;
-	margin: 0 0 1em 0;
+	margin: 0 0 .25em 0;
 	padding: 0;
 	overflow: hidden;
 	font-family: 'Lato', arial, sans-serif;
@@ -45,3 +45,29 @@ header {
 }
 
 
+@media only screen and (min-width: 30em) {
+
+#nav{
+	max-width: 70%;
+	margin-top: 3rem;
+}
+
+}
+
+
+@media only screen and (min-width: 50em) {
+
+.logo {
+	margin-left: 20%;
+}
+
+#nav{
+	max-width: 30%;
+	margin-top: 3rem;
+}
+
+.search {
+	margin-right: 10%;
+}
+
+}
