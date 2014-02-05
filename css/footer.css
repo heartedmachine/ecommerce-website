@@ -9,43 +9,65 @@
 	text-align: center;
 }
 
-	.connect {
+.connect {
 	margin: -1rem auto 0;
-
-	}
-
-	.connect td {
-	margin-right: .5rem;
-	}
-
-	.facebook a {
-	display : block;
-	width : 150px;
-	height : 150px;
-	background-image:url("../images/facebook.svg");
-	margin: 2rem auto 0;
 
 }
 
+.connect td {
+	margin-right: .5rem;
+	}
 
-	.twitter a {
-		display : block;
-		width: 60px;
-		height: 60px;
-		background-image:url("../images/twitter.svg");
-		margin: 2rem auto 0;
+.facebook a {
+	display : block;
+	width : 40px;
+	height : 40px;
+	background-image:url("../images/facebook.svg");
+	margin: 2rem auto 0;
+}
 
-		}
+.facebook a:hover {
+	display : block;
+	width : 40px;
+	height : 40px;
+	background-image:url("../images/facebook-hover.svg");
+	margin: 2rem auto 0;
+}
+
+.twitter a {
+	display : block;
+	width: 40px;
+	height: 40px;
+	 background-image:url("../images/twitter.svg");
+	margin: 2rem auto 0;
+}
+
+.twitter a:hover {
+	display : block;
+	width : 40px;
+	height : 40px;
+	background-image:url("../images/twitter-hover.svg");
+	margin: 2rem auto 0;
+}
+
+.email a {
+	display : block;
+	width : 40px;
+	height : 40px;
+	background-image:url("../images/email.svg");
+	margin: 2rem auto 0;
+}
+
+.email a:hover {
+	display : block;
+	width : 40px;
+	height : 40px;
+	background-image:url("../images/email-hover.svg");
+	margin: 2rem auto 0;
+	}
 
 
-
-	.email a {
-		display : block;
-        width : 60px;
-        height : 60px;
-        background-image:url("../images/email.svg");
-		margin: 2rem auto 0;
-
-		}
-
-
+a, a:link {
+	border: none;
+	transition: none;
+}
