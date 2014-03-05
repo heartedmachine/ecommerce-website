@@ -5,9 +5,8 @@
    text-decoration: none;
    padding: 12px 30px;
    display: inline-block;
-   with: 150px;
    border-radius: 10px;
-   margin: 0 auto .5rem auto;
+   margin: .5rem auto .5rem auto;
    font-family: Helvetica, arial, sans-serif;
    }
 .button:hover {
