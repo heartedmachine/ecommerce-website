@@ -1,5 +1,4 @@
 header {
-	background-color: #eee;
 	margin: -8px;
 	padding: 0px;
 	overflow: hidden;
@@ -7,7 +6,10 @@ header {
 
 .logo {
 	padding: 15px;
+	display: inline;
+	float: left;
 	margin-bottom: 0;
+	width: 150px;
 }
 
 .search {
@@ -19,23 +21,24 @@ header {
 
 #nav {
 	display: table;
-	width: 100%;
-	float: left;
-	margin: 0 0 .25em 0;
+	text-align: center;
+	margin: 0 auto;
 	padding: 0;
-	overflow: hidden;
 	font-family: 'Lato', arial, sans-serif;
+	font-weight: 300;
 }
 
 #nav ul {
 	list-style: none;
 	display: table;
-	margin: 0 auto;
+	margin: 1.5rem auto 0;
 	padding: 0;
 }
 
 #nav li {
 	float: left;
+	text-align: center;
+	width: 90%;
 }
 
 #nav li a {
@@ -45,11 +48,25 @@ header {
 }
 
 
-@media only screen and (min-width: 30em) {
+@media only screen and (min-width: 32em) {
 
 #nav{
-	max-width: 70%;
-	margin-top: 3rem;
+
+	margin-top: 1rem;
+	border-bottom: 1.5px solid #eee;
+	display: block;
+	float: left;
+	width: 70%;
+	margin: 0 auto;
+	padding: 0;
+	overflow: hidden;
+	font-family: 'Lato', arial, sans-serif;
+	font-weight: 300;
+}
+
+#nav li {
+	width: none;
+	text-align: left;
 }
 
 }
@@ -58,12 +75,8 @@ header {
 @media only screen and (min-width: 50em) {
 
 .logo {
-	margin-left: 20%;
+	margin-left: 10%;
 }
 
-#nav{
-	max-width: 30%;
-	margin-top: 3rem;
-}
 
 }
