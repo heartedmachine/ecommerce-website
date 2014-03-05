@@ -8,7 +8,6 @@
 }
 
 .unit {
-	background-color: #eee;
 	border-radius: 7px;
 	float: left;
 }
@@ -25,6 +24,7 @@
 	width: 50%;
 }
 
+
 @media only screen and (min-width: 30em) {
 .grid {
 	margin: 1.5rem;
@@ -34,28 +34,29 @@
 		width: 33.333%;
 	}
 
+
 	.unite-m-1 {
 		width: 100%;
 	}
 
 	.unit-m-1-2 {
-		width: 50%;
+		width: 45%;
+		margin-right: 3%;
 	}
 }
 
 @media only screen and (min-width: 50em) {
 	.grid {
-	margin: 2rem;
 	max-width: 80%;
-	margin: 0 auto;
+	margin: 3rem auto;
 }
 
 	.unit-l-1-3 {
-		width: 33.333%;
+		width: 30%;
 	}
 
 	.unit-l-2-3 {
-		width: 66.666%;
+		width: 60%;
 	}
 
 
