@@ -20,9 +20,8 @@ ul {
 }
 
 .small-contain {
-	max-width: 50%;
 	display: table;
-	margin: 0 auto;
+	margin: .5rem auto;
 }
 
 .red {
