@@ -84,3 +84,40 @@ header {
 
 
 }
+
+.current {
+  background-color: #848484;
+  border-radius: 100px;
+  height: 40px;
+  margin-bottom: .5rem;
+}
+
+.banner {
+  background: #b7b7b7 url("../images/banner.jpg") no-repeat center center;
+  background-size: cover;
+  padding: 5rem 1rem 1rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.banner h2 {
+  color: #fff;
+  background-color: #222;
+  opacity: .7;
+  border-bottom: none;
+}
+
+.banner-index {
+	 background: #b7b7b7 url("../images/index-feature-image.jpg") no-repeat center center;
+  background-size: cover;
+  padding: 5rem 1rem 1rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.banner-index h2 {
+  color: #fff;
+  background-color: #005f58;
+  opacity: .7;
+  border-bottom: none;
+}
