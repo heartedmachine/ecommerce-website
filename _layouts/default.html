@@ -26,19 +26,31 @@
     <div id="nav">
       <ul class="list-group giga brand-family push-0 nav">
         <li class="list-group-item list-group-item-inline">
-          <a href="{{site.baseurl}}/">Home</a>
+          <a class="{% if page.url == '/' %}current{% endif%}" href="{{site.baseurl}}/">Home</a>
         </li>
         <li class="list-group-item list-group-item-inline">
-          <a href="{{site.baseurl}}/store/">Store</a>
+          <a class="{% if page.url contains 'store' %}current{% endif%}" href="{{site.baseurl}}/store/">Store</a>
         </li>
         <li class="list-group-item list-group-item-inline">
-          <a href="{{site.baseurl}}/about/">About</a>
+          <a class="{% if page.url == '/about/' %}current{% endif%}" href="{{site.baseurl}}/about/">About</a>
         </li>
       </ul>
     </div>
 
   </div>
 </header>
+
+{% if page.showbanner %}
+  <div class="banner">
+    <h2>{{page.bannertext}}</h2>
+  </div>
+{% endif%}
+
+{% if page.showindexbanner %}
+  <div class="banner-index">
+    <h2>{{page.bannerindextext}}</h2>
+  </div>
+{% endif%}
 
 		{{content}}
 
