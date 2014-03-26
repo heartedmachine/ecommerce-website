@@ -21,10 +21,14 @@
    }
 
 .btn-alt{
-   background-color: #BCBCBC;
-   color: #81A489;
+   background-color: #ccc;
+   color: #229687;
 }
 
 a, a:link {
    border-bottom: 1px solid #ccc;
+}
+
+.margin-right{
+   margin-right: 1rem;
 }
