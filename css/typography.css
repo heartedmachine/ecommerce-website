@@ -7,7 +7,7 @@ html {
 
 h1, h2, h3, h4, h5, h6,
 p, ul, ol, dl, blockquote,
-table, hr{
+table{
 	margin: 0 0 1rem;
 }
 
@@ -248,4 +248,19 @@ dt {
 	text-transform: uppercase;
 }
 
+.margin-left {
+	margin-left: 1rem;
+}
 
+.underline {
+	border-bottom: 1px solid #555;
+}
+
+hr {
+	color: #fff;
+	margin-bottom: 2rem;
+}
+
+.display-inline {
+	display: inline;
+}
