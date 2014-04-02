@@ -1,44 +1,40 @@
 # User Testing Report
 
-User testing was conducted by {your name} on {specific date} between the times of {start time} and {end time} with the following participants:
+User testing was conducted by Melissa Roy on the 26th of March between the times of 3pm and 3:40pm with the following participants:
 
-- {Jane Doe}
-- {John Doe}
-- {Jordan Doe}
+- Rebecka Cole
+- Anita Chanthavong
+- Thalia Bacilio
 
 ## Tasks
 
-1. {First task description here}
-2. {Second task description here}
-3. {Third task description here}
+1. Go to Store
+2. Buy Product Zelda
+3. Purchase Item
 
 ---
 
 ## Individual Results & Observations
 
-### {Jane Doe}
+### Rebecka
 
-- {She clicked on the link as expected…}
-- {She had troubles completing a specific task…}
-- {She asked these questions…}
-- {Fill in any observations that were important/relevant…}
-- etc.
+- She clicked on Store
+- She added to cart
+- Wasn't sure where to finalize purchase
+- Checked out
 
-### {John Doe}
+### Anita
 
-- {He clicked on the link as expected…}
-- {He had troubles completing a specific task…}
-- {He asked these questions…}
-- {Fill in any observations that were important/relevant…}
-- etc.
+- She clicked on Store
+- She added to cart
+- Was confused on which button to press when in cart
+- Checked out
 
-### {Jordan Doe}
+### Thalia
 
-- {She clicked on the link as expected…}
-- {He had troubles completing a specific task…}
-- {She asked these questions…}
-- {Fill in any observations that were important/relevant…}
-- etc.
+- She clicked on Store
+- She added to cart
+- Checked out
 
 ---
 
@@ -46,15 +42,12 @@ User testing was conducted by {your name} on {specific date} between the times o
 
 ### Critical, Needs Fixing, Unable to Complete
 
-- {All participants had this problem…}
-- etc.
+- Have one button for cart not two. (One general button)
 
 ### Serious, Causes Frustration, May Hinder Completion
 
-- {Two of the participants succeeded where one of them failed…}
-- etc.
+- Wasn't sure where to finalize purchase.
 
 ### Minor, Annoying, Won’t Hinder Completion
 
-- {Participants pointed out this inconsistency…}
-- etc.
+- Nothing
