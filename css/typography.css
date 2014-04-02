@@ -108,6 +108,19 @@ a:active {
 	color: #999;
 }
 
+a:hover,
+a:active {
+	/*It is okay to remove the focus rectangle from mouse actions*/
+	outline: none;
+}
+
+a:focus,
+input:focus,
+button:focus {
+	/*Focus MUST ALWAYS have a focus rectangle for the keyboard users */
+	outline: 3px solid #377974;
+}
+
 ul {
 	list-style-type: none;
 }
@@ -264,3 +277,4 @@ hr {
 .display-inline {
 	display: inline;
 }
+
