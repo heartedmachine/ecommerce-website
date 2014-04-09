@@ -1,0 +1,34 @@
+.button {
+	border: 1px solid #C0C0C0;
+   background: #F8F8F8;
+   color: #F29A6E;
+   text-decoration: none;
+   padding: 12px 30px;
+   display: inline-block;
+   border-radius: 10px;
+   margin: .5rem auto .5rem auto;
+   font-family: Helvetica, arial, sans-serif;
+   }
+.button:hover {
+   border-top-color: transparent;
+   background: #A8A8A8;
+   color: #ffffff;
+   }
+
+.button:active {
+   border-top-color: #272d70;
+   background: #272d70;
+   }
+
+.btn-alt{
+   background-color: #ccc;
+   color: #229687;
+}
+
+a, a:link {
+   border-bottom: 1px solid #ccc;
+}
+
+.margin-right{
+   margin-right: 1rem;
+}
