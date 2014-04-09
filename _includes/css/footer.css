@@ -6,8 +6,9 @@
 	width: 100%;
 	height: 10rem;
 	clear: both;
-	padding: 1rem;
+	padding: 1rem 0;
 	text-align: center;
+	background-color: #eee;
 }
 
 .connect {
