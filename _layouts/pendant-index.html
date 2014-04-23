@@ -2,18 +2,11 @@
 layout: default
 ---
 
-<div class="small-contain list-group-item list-group-item-inline">
-        <a class="button margin-right btn-alt" href="{{site.baseurl}}/store/necklace">Necklaces</a>
-        <a class="button margin-right btn-alt" href="{{site.baseurl}}/store/watch">Watches</a>
-        <a class="button btn-alt" href="{{site.baseurl}}/store">All</a>
-		</div>
-<hr>
-
 <div class="grid">
 
+	<h3>{{page.title}} {{page.edition}}</h3>
 	<div class="detail-bg unit detail-bg gutter unit-s-1">
-		<h2 class="mega">{{page.title}} {{page.edition}}</h2>
-		<img class="float-left unit-s-1 unit-m-1-2 unit-l-1-3" src="{{site.baseurl}}/images/bg-watches/{{page.img-desc}}" alt"{{page.title}} Watch">
+		<img class="float-left unit-s-1 unit-m-1-2 unit-l-1-3 margin-top" src="{{site.baseurl}}/images/bg-watches/{{page.img-desc}}" alt"{{page.title}} Watch">
 
 		<dl>
 			<dt>
