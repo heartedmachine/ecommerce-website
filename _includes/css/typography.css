@@ -159,12 +159,13 @@ cite {
 }
 
 footer {
-	margin-left: 1rem;
+	margin-left: 0;
 
 }
 
 dl {
 	margin-left: 1rem;
+	margin-top: 1rem;
 }
 
 
@@ -278,3 +279,6 @@ hr {
 	display: inline;
 }
 
+.margin-top {
+	margin-top: 1rem;
+}
