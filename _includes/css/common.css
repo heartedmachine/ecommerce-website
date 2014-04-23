@@ -34,7 +34,10 @@ html {
 	float: left;
 	margin-right: 1rem;
 	margin-bottom: 1rem;
-	margin-left: 1.5rem;
+}
+
+.float-right {
+	float: right;
 }
 
 .center-img {
